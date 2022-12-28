@@ -1,2 +1,12 @@
 
-/* Your CSS Code here. */
+.holder{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.item{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
